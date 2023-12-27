@@ -1,0 +1,5 @@
+- Run `docker-compose up -d`, docker container will be created, driver - MySQL, port - 3309
+- Run migrations
+- Change config.json based on your input files directory path
+- Run app
+- Enjoy results

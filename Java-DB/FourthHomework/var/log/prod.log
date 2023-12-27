@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-22T23:31:48.096857067Z</date>
+  <millis>1703287908096</millis>
+  <nanos>857067</nanos>
+  <sequence>0</sequence>
+  <logger>MyApp</logger>
+  <level>SEVERE</level>
+  <class>com.kuzinro.spring.services.MySqlDbManager</class>
+  <method>initConnection</method>
+  <thread>1</thread>
+  <message>org.mysql.jdbc.Driver</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.503113426Z</date>
+  <millis>1703287908503</millis>
+  <nanos>113426</nanos>
+  <sequence>1</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.StudentDataReader</class>
+  <method>scan</method>
+  <thread>1</thread>
+  <message>Starting to read data from directory /home/kuzin57/mipt/kuzinro-Spring/FourthHomework/testDir...</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.504399464Z</date>
+  <millis>1703287908504</millis>
+  <nanos>399464</nanos>
+  <sequence>2</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.StudentDataReader</class>
+  <method>scanFile</method>
+  <thread>1</thread>
+  <message>Scanning file /home/kuzin57/mipt/kuzinro-Spring/FourthHomework/testDir/test1.txt...</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.508475576Z</date>
+  <millis>1703287908508</millis>
+  <nanos>475576</nanos>
+  <sequence>3</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.StudentDataReader</class>
+  <method>scanFile</method>
+  <thread>1</thread>
+  <message>File /home/kuzin57/mipt/kuzinro-Spring/FourthHomework/testDir/test1.txt successfully scanned!</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.509357524Z</date>
+  <millis>1703287908509</millis>
+  <nanos>357524</nanos>
+  <sequence>4</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.StudentDataReader</class>
+  <method>scanFile</method>
+  <thread>1</thread>
+  <message>Scanning file /home/kuzin57/mipt/kuzinro-Spring/FourthHomework/testDir/test2.txt...</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.511808469Z</date>
+  <millis>1703287908511</millis>
+  <nanos>808469</nanos>
+  <sequence>5</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.StudentDataReader</class>
+  <method>scanFile</method>
+  <thread>1</thread>
+  <message>File /home/kuzin57/mipt/kuzinro-Spring/FourthHomework/testDir/test2.txt successfully scanned!</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.512465459Z</date>
+  <millis>1703287908512</millis>
+  <nanos>465459</nanos>
+  <sequence>6</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.StudentDataReader</class>
+  <method>scan</method>
+  <thread>1</thread>
+  <message>All data has been read</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.514926912Z</date>
+  <millis>1703287908514</millis>
+  <nanos>926912</nanos>
+  <sequence>7</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.MySqlDbManager</class>
+  <method>putStudents</method>
+  <thread>1</thread>
+  <message>Putting students into database...</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.535671942Z</date>
+  <millis>1703287908535</millis>
+  <nanos>671942</nanos>
+  <sequence>8</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.MySqlDbManager</class>
+  <method>putStudents</method>
+  <thread>1</thread>
+  <message>Successfully finished putting students into database</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.536422143Z</date>
+  <millis>1703287908536</millis>
+  <nanos>422143</nanos>
+  <sequence>9</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.MySqlDbManager</class>
+  <method>putUniversities</method>
+  <thread>1</thread>
+  <message>Putting universities into database...</message>
+</record>
+<record>
+  <date>2023-12-22T23:31:48.541985871Z</date>
+  <millis>1703287908541</millis>
+  <nanos>985871</nanos>
+  <sequence>10</sequence>
+  <logger>MyApp</logger>
+  <level>INFO</level>
+  <class>com.kuzinro.spring.services.MySqlDbManager</class>
+  <method>putUniversities</method>
+  <thread>1</thread>
+  <message>Successfully finished putting universities into database</message>
+</record>
+</log>

@@ -1,0 +1,7 @@
+{
+	"db": "jdbc:mysql://localhost:3309/FourthHomework",
+	"dbUser": "root",
+	"dbPassword": "root",
+	"directory": "/home/kuzin57/mipt/kuzinro-Spring/FourthHomework/testDir",
+	"log": "/home/kuzin57/mipt/kuzinro-Spring/FourthHomework/var/log/prod.log"
+}
